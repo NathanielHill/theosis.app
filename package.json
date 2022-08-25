@@ -1,0 +1,55 @@
+{
+  "name": "theosis.app",
+  "version": "1.0.0",
+  "description": "theosis.app",
+  "author": "hello@nathanielhill.io",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix 'src/**/*.{js,jsx}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,json,css,yml}'",
+    "size": "yarn build && bundlesize",
+    "analyze": "ANALYZE=true yarn build"
+  },
+  "browserslist": [
+    "last 2 years and not dead and >0.1%"
+  ],
+  "bundlesize": [
+    {
+      "path": ".next/static/chunks/*.js",
+      "maxSize": "35kB"
+    },
+    {
+      "path": ".next/static/chunks/pages/*.js",
+      "maxSize": "10kB"
+    },
+    {
+      "path": ".next/static/css/*.css",
+      "maxSize": "10kB"
+    }
+  ],
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.17"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^11.1.2",
+    "autoprefixer": "^10.2.6",
+    "bundlesize": "^0.18.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
+    "postcss": "^8.3.0",
+    "prettier": "^2.4.1"
+  }
+}
