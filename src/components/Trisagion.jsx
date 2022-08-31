@@ -28,7 +28,7 @@ const Trisagion = () => (
       </p>
       <p>
         Glory to the Father, and to the Son, and to the Holy Spirit, both now
-        and ever, and unto the ages of ages.
+        and ever, and unto ages of ages.
       </p>
       <p className="pt-1 pb-4">Amen.</p>
       <p className="pb-4">
@@ -41,7 +41,7 @@ const Trisagion = () => (
       <p className="pb-4">Lord, have mercy.</p>
       <p>
         Glory to the Father, and to the Son, and to the Holy Spirit, both now
-        and ever, and unto the ages of ages.
+        and ever, and unto ages of ages.
       </p>
       <p className="pt-1 pb-4">Amen.</p>
       <p className="pb-4">
