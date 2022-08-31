@@ -1,5 +1,5 @@
 const Trisagion = () => (
-  <p className="p-12 max-w-xl">
+  <div className="p-12 max-w-xl">
     <h2 className="italic pb-2">The Trisagion Prayers</h2>
     <div className="pl-4">
       <p>In the Name of the Father, and of the Son, and of the Holy Spirit.</p>
@@ -57,7 +57,7 @@ const Trisagion = () => (
       </p>
       <p className="pt-1 pb-4">Amen.</p>
     </div>
-  </p>
+  </div>
 );
 
 export default Trisagion;

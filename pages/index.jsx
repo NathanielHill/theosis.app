@@ -3,7 +3,7 @@ import Trisagion from "@/components/Trisagion";
 
 const HomePage = () => (
   <>
-    <p>
+    <div>
       <Trisagion />
       {/* Troparia of Thanksgiving Now that the day has come to a close, I thank
       thee, O Lord, and I ask that the evening with the night may be sinless;
@@ -54,7 +54,7 @@ const HomePage = () => (
       down to sleep, say:] Into thy hands, O Lord, I commend my soul and my
       body. Do thou thyself bless me, have mercy upon me, and grant me life
       eternal. Amen. */}
-    </p>
+    </div>
     {/* <Cross /> */}
   </>
 );
